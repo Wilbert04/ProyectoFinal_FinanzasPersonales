@@ -10,13 +10,13 @@ namespace ProyectoFinal.Models
     {
         [Key]
         public int CuentaId { get; set; }
-        public string Descripcion { get; set; }
+        public string Nombre { get; set; }
         public string Tipo { get; set; }
 
         public Cuentas()
         {
             CuentaId = 0;
-            Descripcion = string.Empty;
+            Nombre = string.Empty;
             Tipo = string.Empty;
         }
     }

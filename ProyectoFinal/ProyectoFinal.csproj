@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Blazored.Toast" Version="3.1.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqLite" Version="5.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.5">
       <PrivateAssets>all</PrivateAssets>
@@ -14,7 +15,6 @@
 
   <ItemGroup>
     <Folder Include="Pages\Consultas\" />
-    <Folder Include="Pages\Registros\" />
   </ItemGroup>
 
 </Project>

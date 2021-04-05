@@ -9,15 +9,18 @@ namespace ProyectoFinal.Models
     {
         public int Id { get; set; }
         public int PresupuestoId { get; set; }
-        public int Gastos { get; set; }
+        public int CategoriaId { get; set; }
         public decimal Monto { get; set; }
+        public DateTime Fecha { get; set; }
+
 
         public PresupuestoDetalle()
         {
-            this.Id = 0;
-            this.PresupuestoId = 0;
-            this.Gastos = 0;
-            this.Monto = 0;
+            Id = 0;
+            PresupuestoId = 0;
+            CategoriaId = 0;
+            Monto = 0;
+            Fecha = DateTime.Now;
         }
 
     }

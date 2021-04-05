@@ -10,7 +10,9 @@ namespace ProyectoFinal.Models
     {
         [Key]
         public int PresupuestoId { get; set; }
+        public int CategoriaId { get; set; }
         public string Descripcion { get; set; }
+        public decimal Monto { get; set; }
         public DateTime Fecha { get; set; }
         public virtual List<PresupuestoDetalle> Detalle { get; set; }
 
